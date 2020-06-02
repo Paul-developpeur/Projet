@@ -39,11 +39,10 @@
 
 /* BANNDER */
 .banner{
-	margin-top: -20px;
+	margin-top: -150px;
 }
 
 .banner .banner-image{
-	cursor: none;
 	position: relative;
 }
 
@@ -59,4 +58,19 @@
 .banner .banner-content p{
 	color: #FFFFFF;
 }
+
+.banner .banner-content a{
+	color: lime;
+}
+
+.banner .banner-content a:hover{
+	color: orange;
+}
 /* FIN BANNER */
+
+/* ABOUT */
+.about .about-single-element .icon{
+	font-size: 100px;
+	text-align: center;
+}
+/* FIN ABOUT */
