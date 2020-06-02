@@ -73,4 +73,13 @@
 	font-size: 100px;
 	text-align: center;
 }
+
+.about .about-single-element{
+	text-align: center;
+}
+
+.about .about-single-element p{
+	text-align: left;
+	margin-top: 20px;
+}
 /* FIN ABOUT */
