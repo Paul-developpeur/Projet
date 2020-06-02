@@ -17,7 +17,7 @@
 	<body>
 		
 		<!-- HEADER -->
-		<div class="block">
+		<div class="block" id="hiddenHeader">
 			<header class="header">
 				<p class="header-logo">Mon Portfolio</p>
 				<div class='header-menu'>
@@ -74,7 +74,7 @@
 						<div class="tile">
 						<div class="tile is-parent is-vertical">
 							<article class="tile is-child">
-								<div class="notification">Contient une photos</div>
+								<a href="https://unsplash.com/@andrewcoelho"><img src="andrew-coelho-unsplash.jpg"></a>
 							</article>
 							<article class="tile is-child">
 								<a href="https://unsplash.com/@seitamaaphotography"><img src="sandra-seitamaa-3BUKm4-Kpkc-unsplash.jpg"></a>
@@ -88,18 +88,26 @@
 						</div>
 						<div class="tile is-parent">
 							<article class="is-child">
-								<!-- -->
+								<a href="https://unsplash.com/@karlleephoto"><img src="karl-lee-TD2k4QeYnfU-unsplash.jpg"></a>
 							</article>
 						</div>
 					</div>
 					<div class="tile is-parent">
 						<article class="tile is-child">
-							<!-- -->
+							<a href="https://unsplash.com/@karlleephoto"><img src="karl-lee-mDskFDLX16k-unsplash.jpg"></a>
 						</article>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!-- FIN PORTFOLIO -->
+
+		<!-- JAVASCRIPT -->
+		<script>
+			if(window.pageYoffset > 50){
+				hiddenHeader.style.display = 'none';
+			}
+		</script>
+		<!-- FIN JAVASCRIPT -->
 	</body>
 </html>
