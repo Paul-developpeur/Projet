@@ -20,5 +20,9 @@
 	color: #FFFFFF;
 	font-family: 'Montserrat', sans-serif;
 	float: right;
-	margin-right: 30px;
+}
+
+.header .header-menu a{
+	color: #FFFFFF;
+	margin-right: 15px;
 }
