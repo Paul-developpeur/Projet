@@ -90,6 +90,37 @@
 }
 /* FIN ABOUT */
 
+/* PORTFOLIO */
 .portfolio-image{
 	width: 50%
 }
+/* FIN PORTFOLIO */
+
+/* FOOTER */
+.footer .footer-information{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.footer .footer-information ul{
+	padding: 0;
+}
+
+.footer .footer-information ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+/* FIN FOOTER */
+
+/* MEDIA QUERIES */
+@media all and (max-width: 1024px)
+{
+	.header .header-logo{
+		margin-right: 20px;
+	}
+
+	.banner .banner-content{
+	top: 10%;
+}
+}
+/* FIN MEDIA QUERIE */
