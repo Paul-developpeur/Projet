@@ -1,3 +1,1 @@
-if(window.pageYoffset > 50){
-	hiddenHeader.style.display = 'none';
-}
+document.getElementById('attribution-block').style.display = none;

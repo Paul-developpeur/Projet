@@ -72,6 +72,10 @@
 .banner .banner-content a:hover{
 	color: orange;
 }
+
+.banner audio{
+	border-radius: 50px;
+}
 /* FIN BANNER */
 
 /* ABOUT */
